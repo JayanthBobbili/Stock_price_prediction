@@ -18,7 +18,7 @@ plt.plot(df.Close)
 ma100 = df.Close.rolling(100).mean()
 ma100
 
-# LET'S VISULIZE ACTULA VALUES AGAINST MOVING AVERAGE PREDICTED VALUES
+# LET'S VISULIZE ACTUAL VALUES AGAINST MOVING AVERAGE PREDICTED VALUES
 plt.figure(figsize=(16,14))
 plt.plot(df.Close)
 plt.plot(ma100,'r')
